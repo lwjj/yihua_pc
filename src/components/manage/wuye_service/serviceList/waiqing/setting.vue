@@ -1,0 +1,195 @@
+<template>
+<div class="newRightContent" style="overflow:auto">
+    <div class="bgwhite border" style="padding-top:1px;">
+      <div class="title">
+          <el-breadcrumb separator-class="el-icon-arrow-right">
+              <el-breadcrumb-item :to="{path: '/manage/wuye_service'}">物业服务单</el-breadcrumb-item>
+              <el-breadcrumb-item @click.native="$router.go(-1)">服务订单</el-breadcrumb-item>
+              <el-breadcrumb-item>设置</el-breadcrumb-item>
+          </el-breadcrumb>
+      </div>
+    <div class="yd-layout"  style="width:750px;">
+      <!-- <yd-navbar slot="navbar" height='.88rem' color='#fff' :bgcolor='mainColor' title='服务设置'>
+          <div class="addClickArea" @click="$router.go(-1)" slot="left">
+              <yd-navbar-back-icon color='#fff'></yd-navbar-back-icon>
+          </div>
+          <div class="addRightClickArea" slot="right" style="color:#fff" @click="saveData">保存</div>
+      </yd-navbar> -->
+      <div class="list">
+				<yd-cell-group v-for="(item,index) in list" :style="index<=3?'margin-bottom:.2rem':'margin:0'" :key="index">
+					<yd-cell-item type="label">
+							<div slot="left" class="font32">{{item.name}}</div>
+							<div slot="right" class="mr3">接受外勤</div>
+							<yd-switch @click.native="setWaiqing(index)" slot="right" :color='mainColor' v-model="item.enabled"></yd-switch>
+					</yd-cell-item> 
+					<div class="flex-row-nowrap h7 bgwhite" v-if="item.startTime" style="padding:.2rem .5rem;box-sizing:content-box;">
+						<el-time-select v-model="item.startTime" @change="changeData($event,index)" class="mr2" :clearable="false" :picker-options="optionsDate"  placeholder="选择时间"></el-time-select>
+						<el-time-select v-model="item.endTime" @change="changeData($event,index)" :clearable="false" :picker-options="optionsDate"  placeholder="选择时间"></el-time-select>
+            
+            <!-- <el-date-picker class="h7 flex jusCenter" style="margin:0 .1rem" :editable='false' :default-value='item.startTime' v-model="item.startTime"   type="date"  placeholder="选择日期"></el-date-picker>
+						<el-date-picker class="h7 flex jusCenter" style="margin:0 .1rem" :editable='false' :default-value='item.endTime' v-model="item.endTime"   type="date"  placeholder="选择日期"></el-date-picker> -->
+            <!-- <yd-datetime type="time"  ></yd-datetime> -->
+						<!-- <yd-datetime type="time"  class="border h7 flex jusCenter"  style="margin:0 .1rem" v-model="item.endTime"></yd-datetime> -->
+					</div>
+				</yd-cell-group>
+      </div>
+    </div>
+  </div>
+</div>
+  
+</template>
+<script>
+import Vue from "vue";
+import { CellGroup, CellItem } from "vue-ydui/dist/lib.rem/cell";
+Vue.component(CellGroup.name, CellGroup);
+Vue.component(CellItem.name, CellItem);
+import { Switch } from "vue-ydui/dist/lib.rem/switch";
+Vue.component(Switch.name, Switch);
+import { FlexBox, FlexBoxItem } from "vue-ydui/dist/lib.rem/flexbox";
+Vue.component(FlexBox.name, FlexBox);
+Vue.component(FlexBoxItem.name, FlexBoxItem);
+export default {
+  data() {
+    this.userInfo = JSON.parse(
+      decodeURIComponent(localStorage.getItem("userInfo"))
+    );
+    this.organInfo = JSON.parse(
+      decodeURIComponent(localStorage.getItem("organInfo"))
+    );
+    this.mainColor = this.$color[this.userInfo.organType];
+    console.log(this.mainColor, 1111111111111);
+    return {
+      optionsDate: { start: "08:00", step: "00:05", end: "24:00" },
+      list: [
+        // {
+        //   name: "周一",
+        //   value: true,
+        //   startTime: "09:00",
+        //   endTime: "17:00"
+        // },
+        // {
+        //   name: "周二",
+        //   value: true,
+        //   startTime: "09:00",
+        //   endTime: "17:00"
+        // },
+        // {
+        //   name: "周三",
+        //   value: true,
+        //   startTime: "09:00",
+        //   endTime: "17:00"
+        // },
+        // {
+        //   name: "周四",
+        //   value: true,
+        //   startTime: "09:00",
+        //   endTime: "17:00"
+        // },
+        // {
+        //   name: "周五",
+        //   value: true,
+        //   startTime: "09:00",
+        //   endTime: "17:00"
+        // },
+        // {
+        //   name: "周六",
+        //   value: true,
+        //   startTime: "09:00",
+        //   endTime: "17:00"
+        // },
+        // {
+        //   name: "周日",
+        //   value: true,
+        //   startTime: "09:00",
+        //   endTime: "17:00"
+        // }
+      ]
+    };
+  },
+  methods: {
+    saveData() {},
+    setWaiqing(i) {
+      console.log(JSON.stringify(this.list[i]));
+      var obj = JSON.parse(JSON.stringify(this.list[i]));
+      let data = {
+        token: this.$getkey(),
+        list: [
+          {
+            type: obj.type,
+            startTime: obj.startTime + ":00",
+            endTime: obj.endTime + ":00",
+            enabled: obj.enabled ? 0 : 1
+          }
+        ]
+      };
+      this.$ajax1(
+        `${this.subUrl.activity}/serviceOrder/settings`,
+        data,
+        res => {
+          this.$message({
+            message: "设置成功",
+            type: "success"
+          });
+        },
+        this
+      );
+    },
+    changeData(val, index) {
+      this.setWaiqing(index);
+    },
+    getSetting() {
+      this.$ajax(
+        `${this.subUrl.activity}/serviceOrder/getServiceSetting`,
+        { token: this.$getkey() },
+        res => {
+          //   this.$ajax(`${this.subUrl.activity}/serviceOrder/getServiceSetting`,{token:'30d790f914124cb488a5e51488b1ce80'},res=>{
+          for (var a of res.data) {
+            switch (Number(a.type)) {
+              case 1:
+                a.name = "星期一";
+                break;
+              case 2:
+                a.name = "星期二";
+                break;
+              case 3:
+                a.name = "星期三";
+                break;
+              case 4:
+                a.name = "星期四";
+                break;
+              case 5:
+                a.name = "星期五";
+                break;
+              case 6:
+                a.name = "星期六";
+                break;
+              case 7:
+                a.name = "星期日";
+                break;
+              default:
+                console.log(a, typeof a);
+            }
+            a.startTime = a.startTime.substr(0, 5);
+            a.endTime = a.endTime.substr(0, 5);
+            a.enabled = a.enabled == 1 ? true : false;
+          }
+          this.list = res.data;
+          console.log(this.list);
+        },
+        this
+      );
+    }
+  },
+  watch: {
+    list: res => {
+      console.log(res);
+    }
+  },
+  mounted() {
+    this.getSetting();
+  }
+};
+</script>
+<style scoped>
+</style>
+

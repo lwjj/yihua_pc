@@ -1,0 +1,97 @@
+{
+  "buildingArea": 0,
+  "busiFeeStand": 0,
+  "checkInRate": 0,
+  "createDate": "   ",
+  "manageRelType": 0,
+  "monAcctCharge": 0,
+  "monChargeRate": 0,
+  "monEmpNum": 0,
+  "monShouldCharge": 0,
+  "month": "1",
+  "officeFeeStand": 0,
+  "organAddr": "string",
+  "organId": "391189499998109696",
+  "projectName": "string",
+  "rentArea": 0,
+  "repEndDate": "2018-01-28 03:27:10",
+  "repStartDate": "2018-01-28 03:27:10",
+  "reportOrganId": 0,
+  "tables": [{
+    "createTime": "2018-01-28 03:27:10",
+    "deptId": "391191027337134080",
+    "manageMonthRepId": 0,
+    "organId": "391189499998109696",
+    "tableRows": [{
+      "tableDatas": [
+        [{
+          "value": "地方d多少法国",
+          "trId": 0
+        }]
+      ],
+      "tid": "",
+      "type": 1
+    }],
+    "title": "地方d",
+    "type": 0
+  }],
+  "token": "21d252726c1f48adb604ebe2cb620a53",
+  "userId": "391194820921524224"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    "buildingArea": 0,
+    "busiFeeStand": 0,
+    "checkInRate": 0,
+    "createDate": "2018-01-28 03:27:10",
+    "manageRelType": 0,
+    "monAcctCharge": 0,
+    "monChargeRate": 0,
+    "monEmpNum": 0,
+    "monShouldCharge": 0,
+    "month": "string",
+    "officeFeeStand": 0,
+    "organAddr": "string",
+    "organId": 0,
+    "projectName": "string",
+    "rentArea": 0,
+    "repEndDate": "2018-01-28 03:27:10",
+    "repStartDate": "2018-01-28 03:27:10",
+    "reportOrganId": 0,
+    "tables": [
+      {
+        "createTime": "2018-01-28 03:27:10",
+        "deptId": 0,
+        "manageMonthRepId": 0,
+        "organId": 0,
+        "tableRows": [
+          {
+            "tableDatas": [
+              {
+                "trId": 0,
+                "value": "string"
+              }
+            ],
+            "tid": 0,
+            "type": 0
+          }
+        ],
+        "title": "string",
+        "type": 0
+      }
+    ],
+    "token": "21d252726c1f48adb604ebe2cb620a53",
+    "userId":391194820921524224
+  }

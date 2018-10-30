@@ -1,0 +1,511 @@
+{
+    "buildingArea": "1",
+    "busiFeeStand": "1",
+    "checkInRate": "1",
+    "createDate": "2018-07-23 20:41:03",
+    "handle": 2,
+    "manageRelType": "1",
+    "monAcctCharge": "2",
+    "monChargeRate": "2",
+    "monEmpNum": "2",
+    "monShouldCharge": "2",
+    "month": "2018-07",
+    "officeFeeStand": "2",
+    "organAddr": "深圳市南山区后海大道2388号2506",
+    "organId": "425429461698084864",
+    "projectName": "1212",
+    "rentArea": "1",
+    "repStartDate": "2018-07-01",
+    "repEndDate": "2018-07-31",
+    "reportOrganId": "438006596530864128",
+    "tables": [],
+    "monthRepDtoList": [
+        {
+            "organId": "425429461698084864",
+            "deptId": "425429461828108288",
+            "tableList": [
+                {
+                    "guid": "470985600833552384",
+                    "userId": "425430687332433920",
+                    "organId": "425429461698084864",
+                    "deptId": "425429461828108288",
+                    "title": "根据韩国",
+                    "createTime": "2018-07-23 16:08:38",
+                    "manageMonthRepId": "470985600825163776",
+                    "type": 1,
+                    "repMonth": "2018-07-01 00:00:00",
+                    "tableRows": [
+                        {
+                            "guid": "470985600837746688",
+                            "type": 0,
+                            "tableDatas": [
+                                {
+                                    "guid": "470985600841940992",
+                                    "trId": "470985600837746688",
+                                    "value": "更何况"
+                                },
+                                {
+                                    "guid": "470985600841940993",
+                                    "trId": "470985600837746688",
+                                    "value": "刚好"
+                                },
+                                {
+                                    "guid": "470985600841940994",
+                                    "trId": "470985600837746688",
+                                    "value": "分工"
+                                },
+                                {
+                                    "guid": "470985600841940995",
+                                    "trId": "470985600837746688",
+                                    "value": "为"
+                                }
+                            ],
+                            "tid": "470985600833552384"
+                        },
+                        {
+                            "guid": "470985600837746689",
+                            "type": 2,
+                            "tableDatas": [
+                                {
+                                    "guid": "470985600850329600",
+                                    "trId": "470985600837746689",
+                                    "value": "1231"
+                                },
+                                {
+                                    "guid": "470985600850329601",
+                                    "trId": "470985600837746689",
+                                    "value": "1231"
+                                },
+                                {
+                                    "guid": "470985600850329602",
+                                    "trId": "470985600837746689",
+                                    "value": "1231"
+                                },
+                                {
+                                    "guid": "470985600850329603",
+                                    "trId": "470985600837746689",
+                                    "value": "1231"
+                                }
+                            ],
+                            "tid": "470985600833552384"
+                        },
+                        {
+                            "guid": "470985600837746690",
+                            "type": 2,
+                            "tableDatas": [
+                                {
+                                    "guid": "470985600854523904",
+                                    "trId": "470985600837746690",
+                                    "value": "ddddd"
+                                },
+                                {
+                                    "guid": "470985600854523905",
+                                    "trId": "470985600837746690",
+                                    "value": "d"
+                                },
+                                {
+                                    "guid": "470985600854523906",
+                                    "trId": "470985600837746690",
+                                    "value": "dddd"
+                                },
+                                {
+                                    "guid": "470985600854523907",
+                                    "trId": "470985600837746690",
+                                    "value": "dddd"
+                                }
+                            ],
+                            "tid": "470985600833552384"
+                        },
+                        {
+                            "guid": "470985600837746691",
+                            "type": 2,
+                            "tableDatas": [
+                                {
+                                    "guid": "470985600858718208",
+                                    "trId": "470985600837746691",
+                                    "value": "fsfdsf"
+                                },
+                                {
+                                    "guid": "470985600858718209",
+                                    "trId": "470985600837746691",
+                                    "value": "fweewwe"
+                                },
+                                {
+                                    "guid": "470985600858718210",
+                                    "trId": "470985600837746691",
+                                    "value": "dsfsda"
+                                },
+                                {
+                                    "guid": "470985600858718211",
+                                    "trId": "470985600837746691",
+                                    "value": "dfsfs"
+                                }
+                            ],
+                            "tid": "470985600833552384"
+                        }
+                    ],
+                    "deptName": "客服部",
+                    "organName": null
+                }
+            ],
+            "taskListDto": {
+                "progress": 0,
+                "list": [
+                    {
+                        "guid": "467751803602206720",
+                        "createDate": "2018-07-14 17:58:40",
+                        "taskName": "下月计划1",
+                        "taskType": "67",
+                        "type": 2,
+                        "startDate": "2018-08-15 00:00:00",
+                        "completionDate": "2018-08-17 00:00:00",
+                        "taskDetail": "时代感的方式",
+                        "status": 3,
+                        "progress": 0,
+                        "timeout": 0,
+                        "userName": null,
+                        "typeName": null,
+                        "executorInfo": [
+                            {
+                                "userId": "425579328307200000",
+                                "name": "朱美春",
+                                "account": "15986845839"
+                            }
+                        ],
+                        "identifierInfo": null
+                    }
+                ]
+            },
+            "reportDetailList": [
+                {
+                    "guid": "469088457105473536",
+                    "workContent": "测试稽查2018-7-12",
+                    "workMeasure": null,
+                    "startTime": "2018-07-12 11:44:31",
+                    "endTime": "2018-07-12 11:40:18",
+                    "executor": "425439664594223104",
+                    "executorName": "张革龙",
+                    "progress": 100
+                },
+                {
+                    "guid": "469088457109667840",
+                    "workContent": "助手发起任务单测试2018-7-12",
+                    "workMeasure": null,
+                    "startTime": "2018-07-12 11:29:28",
+                    "endTime": "2018-07-12 23:29:28",
+                    "executor": "425439664594223104",
+                    "executorName": "张革龙",
+                    "progress": 100
+                }
+            ],
+            "organName": null,
+            "deptName": "客服部"
+        },
+        {
+            "organId": "425429461698084864",
+            "deptId": "425429461836496896",
+            "tableList": [],
+            "taskListDto": {
+                "progress": 0,
+                "list": [
+                    {
+                        "guid": "426178690402091008",
+                        "createDate": "2018-03-21 16:41:58",
+                        "taskName": "水幕墙、风水池保养、隔油池清掏检查，频次：1次",
+                        "taskType": "400782830806237184",
+                        "type": 1,
+                        "startDate": "2018-08-01 00:00:00",
+                        "completionDate": "2018-09-01 00:00:00",
+                        "taskDetail": "水幕墙、风水池保养、隔油池清掏检查",
+                        "status": 3,
+                        "progress": 0,
+                        "timeout": 0,
+                        "userName": null,
+                        "typeName": null,
+                        "executorInfo": [
+                            {
+                                "userId": "425430191460843520",
+                                "name": "尚胜辉",
+                                "account": "13691772775"
+                            }
+                        ],
+                        "identifierInfo": null
+                    },
+                    {
+                        "guid": "426178690834104320",
+                        "createDate": "2018-03-21 16:41:58",
+                        "taskName": "多媒体、无线对讲保养、巡更系统保养，频次：1次",
+                        "taskType": "400782830806237184",
+                        "type": 1,
+                        "startDate": "2018-08-01 00:00:00",
+                        "completionDate": "2018-09-01 00:00:00",
+                        "taskDetail": "多媒体、无线对讲保养、巡更系统保养",
+                        "status": 3,
+                        "progress": 0,
+                        "timeout": 0,
+                        "userName": null,
+                        "typeName": null,
+                        "executorInfo": [
+                            {
+                                "userId": "425430191460843520",
+                                "name": "尚胜辉",
+                                "account": "13691772775"
+                            }
+                        ],
+                        "identifierInfo": null
+                    }
+                ]
+            },
+            "reportDetailList": null,
+            "organName": null,
+            "deptName": "工程部"
+        },
+        {
+            "organId": "425429461698084864",
+            "deptId": "425429461840691200",
+            "tableList": [
+                {
+                    "guid": "470985721134579712",
+                    "userId": "425429461500952576",
+                    "organId": "425429461698084864",
+                    "deptId": "425429461840691200",
+                    "title": "顶顶顶顶顶顶顶",
+                    "createTime": "2018-07-23 16:09:06",
+                    "manageMonthRepId": "470985721130385408",
+                    "type": 1,
+                    "repMonth": "2018-07-01 00:00:00",
+                    "tableRows": [
+                        {
+                            "guid": "470985721142968320",
+                            "type": 0,
+                            "tableDatas": [
+                                {
+                                    "guid": "470985721147162624",
+                                    "trId": "470985721142968320",
+                                    "value": "烦烦烦方法"
+                                },
+                                {
+                                    "guid": "470985721147162625",
+                                    "trId": "470985721142968320",
+                                    "value": "呃呃呃呃呃"
+                                },
+                                {
+                                    "guid": "470985721147162626",
+                                    "trId": "470985721142968320",
+                                    "value": "强强强强"
+                                },
+                                {
+                                    "guid": "470985721147162627",
+                                    "trId": "470985721142968320",
+                                    "value": "水水水水水"
+                                }
+                            ],
+                            "tid": "470985721134579712"
+                        },
+                        {
+                            "guid": "470985721142968321",
+                            "type": 2,
+                            "tableDatas": [
+                                {
+                                    "guid": "470985721151356928",
+                                    "trId": "470985721142968321",
+                                    "value": "ddsad"
+                                },
+                                {
+                                    "guid": "470985721151356929",
+                                    "trId": "470985721142968321",
+                                    "value": "sada"
+                                },
+                                {
+                                    "guid": "470985721151356930",
+                                    "trId": "470985721142968321",
+                                    "value": "sdasd"
+                                },
+                                {
+                                    "guid": "470985721151356931",
+                                    "trId": "470985721142968321",
+                                    "value": "dasasd"
+                                }
+                            ],
+                            "tid": "470985721134579712"
+                        },
+                        {
+                            "guid": "470985721142968322",
+                            "type": 2,
+                            "tableDatas": [
+                                {
+                                    "guid": "470985721155551232",
+                                    "trId": "470985721142968322",
+                                    "value": "范德萨范德萨"
+                                },
+                                {
+                                    "guid": "470985721155551233",
+                                    "trId": "470985721142968322",
+                                    "value": "撒旦发射点"
+                                },
+                                {
+                                    "guid": "470985721155551234",
+                                    "trId": "470985721142968322",
+                                    "value": "的身份士大夫"
+                                },
+                                {
+                                    "guid": "470985721155551235",
+                                    "trId": "470985721142968322",
+                                    "value": "随风倒十分"
+                                }
+                            ],
+                            "tid": "470985721134579712"
+                        }
+                    ],
+                    "deptName": "秩序维护部",
+                    "organName": null
+                }
+            ],
+            "taskListDto": {
+                "progress": 0,
+                "list": [
+                    {
+                        "guid": "469180243492601856",
+                        "createDate": "2018-07-18 16:34:47",
+                        "taskName": "下月计划111",
+                        "taskType": "68",
+                        "type": 2,
+                        "startDate": "2018-08-01 00:00:00",
+                        "completionDate": "2018-08-30 00:00:00",
+                        "taskDetail": "社团股份的认购",
+                        "status": 3,
+                        "progress": 0,
+                        "timeout": 0,
+                        "userName": null,
+                        "typeName": null,
+                        "executorInfo": [
+                            {
+                                "userId": "425588159296831488",
+                                "name": "欧鸿涛",
+                                "account": "15202068355"
+                            }
+                        ],
+                        "identifierInfo": null
+                    }
+                ]
+            },
+            "reportDetailList": null,
+            "organName": null,
+            "deptName": "秩序维护部"
+        },
+        {
+            "organId": "425429461698084864",
+            "deptId": "425429461844885504",
+            "tableList": [],
+            "taskListDto": {
+                "progress": 0,
+                "list": [
+                    {
+                        "guid": "426173602023473152",
+                        "createDate": "2018-03-21 16:21:45",
+                        "taskName": "季度绩效考核，频次：1次",
+                        "taskType": "400782830806237184",
+                        "type": 1,
+                        "startDate": "2018-08-01 00:00:00",
+                        "completionDate": "2018-09-01 00:00:00",
+                        "taskDetail": "季度绩效考核",
+                        "status": 3,
+                        "progress": 0,
+                        "timeout": 0,
+                        "userName": null,
+                        "typeName": null,
+                        "executorInfo": [
+                            {
+                                "userId": "425572680440217600",
+                                "name": "范平",
+                                "account": "15986849027"
+                            }
+                        ],
+                        "identifierInfo": null
+                    }
+                ]
+            },
+            "reportDetailList": [
+                {
+                    "guid": "469087572128301056",
+                    "workContent": "总结大会",
+                    "workMeasure": null,
+                    "startTime": "2018-07-17 20:09:33",
+                    "endTime": "2018-07-17 21:08:00",
+                    "executor": "425572680440217600",
+                    "executorName": "范平",
+                    "progress": 100
+                }
+            ],
+            "organName": null,
+            "deptName": "行政部"
+        },
+        {
+            "organId": "425429461698084864",
+            "deptId": "425439551796805632",
+            "tableList": [],
+            "taskListDto": {
+                "progress": 0,
+                "list": []
+            },
+            "reportDetailList": null,
+            "organName": null,
+            "deptName": "总经办"
+        },
+        {
+            "organId": "425429461698084864",
+            "deptId": "425571981186826240",
+            "tableList": [],
+            "taskListDto": {
+                "progress": 0,
+                "list": []
+            },
+            "reportDetailList": null,
+            "organName": null,
+            "deptName": "财务部"
+        },
+        {
+            "organId": "425429461698084864",
+            "deptId": "425572766440226816",
+            "tableList": [],
+            "taskListDto": {
+                "progress": 0,
+                "list": []
+            },
+            "reportDetailList": null,
+            "organName": null,
+            "deptName": "保洁部"
+        },
+        {
+            "organId": "425429461698084864",
+            "deptId": "425582933416345600",
+            "tableList": [],
+            "taskListDto": {
+                "progress": 0,
+                "list": []
+            },
+            "reportDetailList": null,
+            "organName": null,
+            "deptName": "文化活动中心"
+        },
+        {
+            "organId": "425429461698084864",
+            "deptId": "430297299508264960",
+            "tableList": [],
+            "taskListDto": {
+                "progress": 0,
+                "list": []
+            },
+            "reportDetailList": null,
+            "organName": null,
+            "deptName": "租赁部"
+        }
+    ],
+    "token": "259f7bd6ce07414ba8a22920cc06c81d",
+    "userId": "425439664594223104",
+    "accessorys": [
+        "Fk7R7jeTsp-FF9e_wumtz9TnF80H.png",
+        "Fgzy_Z__mhiW3HTrrAvKvhHnbcwQ.png"
+    ],
+    "guid": null
+}

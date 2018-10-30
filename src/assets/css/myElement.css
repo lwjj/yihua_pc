@@ -1,0 +1,49 @@
+/* 圆环 */
+.el-progress-circle{
+  width: 80px!important;
+  height: 80px!important;
+}
+/* 表格 */
+.inform_table {
+    /* text-align: center; */
+    padding-left: 10px; 
+    margin: 10px 0;
+  }
+ .el-table {
+    font-size: 15px;
+  }
+
+/* menu 切换 */
+.el-menu {
+    background: #fff;
+    /* float: left; */
+}
+.el-menu-item {
+    font-size: 16px;
+  font-weight: 700;
+}
+
+/* 输入框 label */
+.el-form-item__label{
+  font-size: 15px;
+}
+.el-form-item__content{
+  font-size: 15px;
+}
+
+/* 面包屑 */
+.el-breadcrumb {
+  font-size: 16px;
+  line-height: 5;
+}
+/* tab 切换 */
+.el-tabs__item{
+  font-size: 16px;
+  color: #000;
+  font-weight: 700;
+}
+
+/* 弹窗提示 */
+.el-message-box__message p {
+  margin-left: 15px;
+}

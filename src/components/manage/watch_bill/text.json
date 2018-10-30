@@ -1,0 +1,42 @@
+{
+  "token": "016a2067044649f7bcd39ece6ed05909",
+  "dateType": "1",
+  "organId": "391189499998109696",
+  "dispatcher": "391189497598967808",
+  "watch": "391194820921524224",
+  "csTel": "13188888888",
+  "prTel": "13188888888",
+  "orTel": "13188888888",
+  "watchkeeper": {
+    "mos": [{
+      "userId": "395960088021434368",
+      "sort": 1
+    }, {
+      "userId": 0,
+      "sort": 2
+    }, {
+      "userId": 0,
+      "sort": 3
+    }],
+    "mis": [{
+      "userId": 0,
+      "sort": 1
+    }, {
+      "userId": 0,
+      "sort": 2
+    }, {
+      "userId": 0,
+      "sort": 3
+    }],
+    "nis": [{
+      "userId": 0,
+      "sort": 1
+    }, {
+      "userId": 0,
+      "sort": 2
+    }, {
+      "userId": 0,
+      "sort": 3
+    }]
+  }
+}

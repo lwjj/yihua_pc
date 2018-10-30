@@ -1,0 +1,19 @@
+.list_item {
+    font-size: 14px;
+    background: #fff;
+    min-height: 30x;
+    line-height: 30px;
+    padding: 0 20px;
+    align-items: center;
+    display: flex;
+    
+    
+  }
+  .list_item .label{
+    width: 100px;
+    padding-right: 10px;
+    text-align: right;
+  }
+  .list_item .labelContent {
+    flex: 1;
+  }

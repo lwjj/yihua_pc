@@ -1,0 +1,117 @@
+.flex-row.h9{
+    /* width: 200px; */
+    border: 1px solid #ddd;
+    margin: 20px;
+    border-radius: 10px; 
+    
+}
+.evaluate-over-submit{
+    border: 1px solid #ddd;
+    border-radius: 10px; 
+    text-align: center;
+    margin: 20px;
+    width: 90%;
+}
+.flex-row.h9>.flex1{
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid #ddd; 
+    height: 100%;
+}
+.flex-row.h9>.flex1:last-child{
+    border-right: 0;
+}
+
+.fixed-evaluate .flex-row.h9{
+    border: 0;
+    margin-left: 0;
+    text-align: center;
+    justify-content:center;
+}
+.table_title{
+    border-top: 1px solid #ddd;
+}
+.table_content{
+    border-top: 1px solid #ddd;
+}
+.flex-row{
+    margin-bottom: 10px;
+}
+.flex-row .label {
+    width: 120px;
+}
+.jiaofei{
+    padding: 10px 20px;
+}
+
+.state {
+    /* border: 1px solid #ddd; */
+    padding: .02rem .06rem;
+    font-size: 15px!important;
+    border-radius: .05rem;
+  }
+  
+  /* .state0 {
+    color: #fa697c;
+    border-color: #fa697c;
+  }
+  
+  .state.state6, .state.state2, .state.state3, .state.state4, .state.state5 {
+    color: #fab23e;
+    border-color: #fab23e;
+  }
+  
+  .state1 {
+    color: #6ccc94;
+    border-color: #6ccc94;
+  }
+  
+  .stateClose {
+    border-color: #999;
+    color: #999;
+  }
+   */
+
+   .usuallyBox {
+    background: #fff;
+  }
+  
+  .usuallyBox .list_item {
+    height: .8rem;
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: .3rem;
+  }
+  
+  .yd-tab-box .yd-tab-panel {
+    position: absolute;
+    top: .84rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .usuallyBox .list_item .label {
+    text-align: right;
+    width: 1.8rem;
+    max-width: 2rem;
+    margin-right: .2rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #666;
+  }
+  
+  .usuallyBox .list_item .flex1 {
+    height: .65rem;
+    border: 1px solid #ddd;
+    padding: 0 .1rem;
+    color: #999;
+    -webkit-border-radius: .1rem;
+    -moz-border-radius: .1rem;
+    border-radius: .1rem;
+  }
+  

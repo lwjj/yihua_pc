@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="renderer" content="webkit">
+  <meta charset="utf-8">
+  <title>八爪网</title>
+</head>
+<!-- <script src="static/im/sdk/NIM_Web_NIM_v4.5.0.js"></script> -->
+<!-- <script src="static/im/sdk/NIM_Web_SDK_v4.5.0.js"></script> -->
+<style>
+  #downLoadBrower {
+    display: none;
+    position: absolute;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 300000
+  }
+
+  .browserList {
+    width: 800px;
+    position: absolute;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    left: 50%;
+    top: 50%;
+    margin-left: -500px;
+    margin-top: -150px;
+    background: #f0f0f0;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 5px -2px rgba(0, 0, 0, .3);
+  }
+
+  .brTitle {
+    line-height: 40px;
+    height: 40px;
+  }
+
+  .browserList a {
+    float: left;
+    width: 200px;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .browserList a {
+    text-decoration: none;
+    color: #333;
+  }
+
+
+  .browserList .icon {
+    width: 125px;
+    height: 135px;
+    margin: 20px auto;
+    background-image: url(static/img/brower.png);
+    background-repeat: no-repeat;
+  }
+
+  .browserList a:hover {
+    background: #fff;
+  }
+
+  .browserList .icon1 {
+    background-position: -125px 0;
+  }
+
+  .browserList .icon2 {
+    background-position: -375px 0;
+  }
+
+  .browserList .icon3 {
+    background-position: -500px 0;
+  }
+
+  #app {
+    display: block;
+  }
+</style>
+
+<body>
+  <div id="app" class="apphappy"></div>
+  <div id="downLoadBrower">
+    <div class="browserList">
+      <div class="brTitle">您的浏览器版本太低，请选择一个最新的浏览器下载安装</div>
+      <a href="http://www.bazhuawang.com/download/chrome.exe" title="点击下载" target="_blank">
+        <div class="icon icon0"></div>
+        <div class="text text0">谷歌浏览器</div>
+      </a>
+      <a href="https://download-ssl.firefox.com.cn/releases-sha2/full/60.0esr/zh-CN/Firefox-ESR-full-latest.exe" title="点击下载" target="_blank">
+        <div class="icon icon1"></div>
+        <div class="text text1">火狐浏览器</div>
+      </a>
+      <a href="https://www.apple.com/safari/" title="点击下载" target="_blank">
+        <div class="icon icon2"></div>
+        <div class="text text3">Safari浏览器</div>
+      </a>
+      <a href="http://go.microsoft.com/fwlink/?LinkId=324628" title="点击下载" target="_blank">
+        <div class="icon icon3"></div>
+        <div class="text text3">IE浏览器</div>
+      </a>
+    </div>
+  </div>
+  <script src="static/brower.js"></script>
+
+  <!-- built files will be auto injected -->
+</body>
+
+</html>

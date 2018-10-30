@@ -1,0 +1,23 @@
+export default {
+  "notice": "/manage/inform",
+  "emergency": "/manage/emergency",
+  "examine": "/manage/quality",
+  "workReport": "/manage/work_report",
+  "meeting": "/manage/meeting",
+  "otherReport": "/manage/other_report",
+  "物业服务": "/manage/wuye_service",
+  "proRelation": "/manage/wuye_contact/rela_manage/rela_manage",
+  "ownersRelation": "/manage/yewei_contact",
+  "audit": "/manage/tenant_audit",
+  "caa": "/manage/purchase",
+  "manageReport": "/manage/manage_report",
+  "任务统计": "/manage/mission",
+  "物业管理": "/manage/wuye_manage",
+  "addressBook": "/manage/address_book/address_book",
+  "houseInfo": "/manage/manage_building/building_unit",
+  "dispatch": "/manage/scheduling/scheduling_show",
+  "品质管理": "/manage/pinzhi",
+  "工作管理": "/manage/work",
+  "楼宇信息": "/manage/building",
+  "物业服务": "/manage/wuye_service"
+} 
